@@ -1,0 +1,383 @@
+                body {
+                font-size: 1.2em Arial, Sans-serif;
+                background-color: white;
+                color: white;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .container {
+                width: 100%;
+                margin: auto;
+                overflow: hidden;
+            }
+            
+            span {
+                background-color: blue;
+                padding: 5px;
+                font-size: 1.1em;
+                border-radius: 5px;
+            }
+            
+            span:hover {
+                background-color: #00a2ff;
+                font-size: 1.2em;
+            }
+            
+            header {
+                background-color: #00a2ff;
+                min-height: 70px;
+                padding-top: 3px;
+                border-bottom: 5px solid white;
+            }
+            
+            .welcome {
+                padding: 0px 0px 0px 20px;
+            }
+            
+            .formidables {
+                background-color: #ffffff;
+                color: blue;
+                padding: 2px 0px 1px 20px;
+                position: relative;
+            }
+            
+            .formidables p {
+                line-height: 1.2em;
+            }
+            
+            .formidables p.one,
+            .formidables p.two {
+                display: none;
+            }
+            
+            .formidables p.three {
+                display: inline-block;
+                position: absolute;
+                top: 5%;
+                right: 20%;
+                margin-top: 20px;
+                font-weight: 700;
+            }
+            
+            .formidables p.four {
+                display: inline-block;
+                position: absolute;
+                top: 40%;
+                right: 19.8%;
+                margin-top: 20px;
+                font-weight: 700;
+            }
+            
+            .formidables a {
+                display: inline-block;
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                margin-top: 20px;
+                text-decoration: none;
+                color: blue;
+                font-weight: 700;
+            }
+            
+            nav {
+                width: 100%;
+                background: #00316b;
+            }
+            
+            .navi a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            ul {
+                margin: 0 auto;
+                padding: 0;
+                width: 80%;
+                text-align: center;
+            }
+            
+            ul li {
+                list-style: none;
+                display: inline-block;
+                padding: 20px;
+            }
+            
+            ul li:hover {
+                background: #1177f3;
+            }
+            
+            ul li a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .toggle {
+                width: 100%;
+                padding: 10px 20px;
+                background: #001f44;
+                font-size: 30px;
+                color: #fff;
+                text-align: right;
+                box-sizing: border-box;
+                display: none;
+            }
+            
+            .sticky {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0px;
+                right: 0px;
+            }
+            
+            section.img {
+                background: url("../assign/kids.jpg") no-repeat;
+                margin: 0;
+                background-size: cover;
+                max-height: 100%;
+                min-height: 700px;
+            }
+            
+            section.img a {
+                text-decoration: none;
+                color: white;
+                padding-left: 30px;
+                padding-right: 30px;
+                font-weight: bold;
+            }
+            
+            section.img h1 {
+                padding-bottom: 2px;
+                padding-top: 200px;
+                font-size: 3em;
+                padding-left: 30px;
+            }
+            
+            section.img h2 {
+                display: none;
+            }
+            
+            .sub-section {
+                width: 100%;
+            }
+            
+            .spann a {
+                text-decoration: none;
+                color: blue;
+                padding: 20px;
+                /* background-color: blue;*/
+                border: none;
+                border-radius: 5px;
+                font-weight: 500;
+                text-align: center;
+            }
+            
+            .column {
+                text-align: center;
+                padding: 5px;
+            }
+            
+            .spann {
+                margin-top: 25px;
+                /*max-width: 100%;*/
+                max-width: 100%;
+                box-sizing: border-box;
+                text-align: justify;
+                padding: 8px;
+                font-size: 18px;
+                line-height: 20px;
+            }
+            
+            .third {
+                margin: 0;
+            }
+            
+            .left {
+                width: 30%;
+                float: left;
+                background-color: white;
+                color: #000;
+                /*border-right: 15px solid blue;*/
+                border-radius: 5px;
+                margin-right: 2%;
+            }
+            
+            div.left>p {
+                padding: 0 20px;
+                margin-top: 0;
+            }
+            
+            .foot {
+                padding: 5px;
+                margin-top: 10px;
+                background-color: #00a2ff;
+            }
+            
+            .clear {
+                clear: both;
+                content: "";
+                display: table;
+            }
+            
+            .float {
+                float: left;
+                width: 30%;
+                text-align: center;
+                padding: 15px;
+                font-size: 1.1em;
+            }
+            
+            footer h3,
+            footer p,
+            address {
+                text-align: center;
+                font-size: 1.1em;
+            }
+            
+            .copyright {
+                background-color: white;
+                margin-top: 0;
+                color: black;
+                text-align: center;
+                padding: 5px;
+            }
+            
+            .about-page {
+                width: 40%;
+                border: 10px;
+                font-size: 1.1em;
+                margin: auto;
+            }
+            
+            .style {
+                text-align: center;
+            }
+            
+            .contact {
+                width: 100%;
+                margin: auto;
+                overflow: hidden;
+                background-color: efefef !important;
+            }
+            
+            form {
+                display: block;
+                padding: 30px 5px 5px 30px;
+                text-align: center;
+                width: 40%;
+                border: 2px solid white;
+                margin: auto 30px;
+                background-image: url(../assign/classroom-2093743_1920.jpg);
+                background-size: cover;
+                float: left;
+            }
+            
+            form div {
+                padding: 10px;
+            }
+            
+            input {
+                padding: 10px;
+                border-radius: 5px;
+                width: 70%;
+                font-size: 1.1em;
+            }
+            
+            input[type="submit"] {
+                background-color: pink;
+                color: black;
+            }
+            
+            label.top {
+                font-size: 1.3em;
+                font-weight: bold;
+                background-color: rgba(0, 0, 0, 0.6)
+            }
+            
+            img {
+                width: 50px;
+                height: auto;
+                padding-bottom: 20px;
+                margin-top: 0;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            
+            img:hover {
+                color: black;
+            }
+            /* .side {
+                position: absolute;
+                bottom: 17%;
+                right: 8%;
+                background-color: black;
+            }*/
+            
+            .social {
+                background-color: black;
+                width: 40%;
+                display: inline-block;
+            }
+            
+            .contacts {
+                color: black;
+                width: 50%;
+                float: right;
+                display: block;
+                margin-left: 0px;
+                margin-right: 0;
+            }
+            
+            .bold {
+                font-weight: 600;
+            }
+            
+            @media only screen and (max-width:1100px) {
+                .contacts {
+                    color: black;
+                    width: 40%;
+                    float: right;
+                    display: block;
+                    margin-left: 0px;
+                    margin-right: 0;
+                }
+                form {
+                    display: block;
+                    padding: 30px 5px 5px 30px;
+                    text-align: center;
+                    width: 35%;
+                    border: 2px solid white;
+                    margin: auto 30px;
+                    background-image: url(../assign/classroom-2093743_1920.jpg);
+                    background-size: cover;
+                    float: left;
+                }
+            }
+            
+            @media only screen and (max-width:1100px) {
+                .contacts {
+                    color: black;
+                    width: 100%;
+                    float: none;
+                    display: block;
+                    margin-left: 0px;
+                    margin-right: 0;
+                    text-align: center;
+                }
+                form {
+                    display: block;
+                    padding: 30px 5px 5px 30px;
+                    text-align: left;
+                    width: 100%;
+                    border: 2px solid white;
+                    margin: auto 10px;
+                    background-image: url(../assign/classroom-2093743_1920.jpg);
+                    background-size: cover;
+                    float: none;
+                }
+                label.top {
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    text-align: center;
+                }
