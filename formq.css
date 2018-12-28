@@ -1,0 +1,182 @@
+@media only screen and (max-width:768px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -30% 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -38% 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:680px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -45% 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -55% 0 0 0;
+        width: 100%;
+    }
+    width: 100%;
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -63% 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -79% 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -23em 0 0 0;
+        width: auto;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+        height: auto;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -26em 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .column {
+        text-align: center;
+        padding: 15px 0 0 0;
+    }
+    .spann {
+        margin: -28em 0 0 0;
+        width: 100%;
+    }
+    .left {
+        margin-bottom: 3%;
+        float: none;
+        display: block;
+        width: 95%;
+    }
+    div.left>p {
+        padding: 0 10px;
+    }
+}
